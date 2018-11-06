@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'RalewaySemiBold';
+    src: url('../fonts/RalewaySemiBold.eot');
+    src: url('../fonts/RalewaySemiBold.eot') format('embedded-opentype'),
+    url('../fonts/RalewaySemiBold.woff2') format('woff2'),
+    url('../fonts/RalewaySemiBold.woff') format('woff'),
+    url('../fonts/RalewaySemiBold.ttf') format('truetype'),
+    url('../fonts/RalewaySemiBold.svg#RalewaySemiBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSansRegular.eot');
+    src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+    url('../fonts/OpenSansRegular.woff2') format('woff2'),
+    url('../fonts/OpenSansRegular.woff') format('woff'),
+    url('../fonts/OpenSansRegular.ttf') format('truetype'),
+    url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'RalewayMedium';
+    src: url('../fonts/RalewayMedium.eot');
+    src: url('../fonts/RalewayMedium.eot') format('embedded-opentype'),
+    url('../fonts/RalewayMedium.woff2') format('woff2'),
+    url('../fonts/RalewayMedium.woff') format('woff'),
+    url('../fonts/RalewayMedium.ttf') format('truetype'),
+    url('../fonts/RalewayMedium.svg#RalewayMedium') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1127px;
+    margin: auto;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 155px;
+    font-size: 24.31px;
+    font-family: 'RalewaySemiBold';
+    color: #24282f;
+}
+hr{
+    background-color: #b5a263;
+    width: 77px;
+    margin: auto;
+    height: 2px;
+    border: none;
+    margin-top: 25px;
+
+}
+
+.courteney{
+    max-width: 311px;
+    float: left;
+    padding-top: 35px;
+}
+.courteney:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.courteney h3{
+    display: block;
+    font-size: 16px;
+    color: #24282f;
+    margin-top: 30px;
+    margin-left: 11px;
+    font-family: 'RalewayMedium';
+    float: left;
+}
+
+.courteney h3 span{
+    display: block;
+    font-size: 14px;
+    color: #b5a263;
+    font-family: 'OpenSansRegular';
+}
+
+.courteney h3:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.courteney a i{
+    float: right;
+    color: white;
+    background-color: #dedede;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 31px;
+
+}
+
+.courteney a i:first-child{
+    margin-right: 7px;
+}
