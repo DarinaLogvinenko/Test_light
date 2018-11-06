@@ -165,3 +165,54 @@ hr{
 .matt a i:first-child{
     margin-left: 7px;
 }
+.david{
+    max-width: 311px;
+    float: left;
+    padding-top: 35px;
+    margin-left: 88px;
+}
+.david:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.david h3{
+    display: block;
+    font-size: 16px;
+    color: #24282f;
+    margin-top: 30px;
+    margin-left: 11px;
+    font-family: 'RalewayMedium';
+    float: left;
+}
+
+.david h3 span{
+    display: block;
+    font-size: 14px;
+    color: #b5a263;
+    font-family: 'OpenSansRegular';
+}
+
+.david h3:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.david a i{
+    float: right;
+    color: white;
+    background-color: #dedede;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 31px;
+
+}
+
+.david a i:first-child{
+    margin-right: 7px;
+}
