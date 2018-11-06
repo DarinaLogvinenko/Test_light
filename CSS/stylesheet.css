@@ -113,3 +113,55 @@ hr{
 .courteney a i:first-child{
     margin-right: 7px;
 }
+
+.matt{
+    max-width: 311px;
+    float: left;
+    padding-top: 35px;
+    margin-left: 102px;
+}
+.matt:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.matt h3{
+    display: block;
+    font-size: 16px;
+    color: #24282f;
+    margin-top: 30px;
+    margin-left: 11px;
+    font-family: 'RalewayMedium';
+    float: left;
+}
+
+.matt h3 span{
+    display: block;
+    font-size: 14px;
+    color: #b5a263;
+    font-family: 'OpenSansRegular';
+}
+
+.matt h3:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.matt a i{
+    float: right;
+    color: white;
+    background-color: #dedede;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 31px;
+
+}
+
+.matt a i:first-child{
+    margin-right: 7px;
+}
